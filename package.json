@@ -1,0 +1,29 @@
+{
+  "name": "instagram-server",
+  "version": "1.0.0",
+  "description": "instagram server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/hoakusa/instagram_server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "restify",
+    "mongojs"
+  ],
+  "author": "An Pham",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/hoakusa/instagram_server#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "cloudinary": "^1.2.4",
+    "jsonwebtoken": "^5.4.0",
+    "mongojs": "^1.3.0",
+    "morgan": "^1.6.1",
+    "restify": "^4.0.3"
+  }
+}
