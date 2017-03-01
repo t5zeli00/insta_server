@@ -1,23 +1,23 @@
 {
-  "name": "instagram-server",
+  "name": "insta-server",
   "version": "1.0.0",
-  "description": "instagram server",
+  "description": "insta server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/hoakusa/instagram_server.git"
+    "url": "git+https://bitbucket.org/t5zeli00/insta_server.git"
   },
   "keywords": [
     "nodejs",
     "restify",
     "mongojs"
   ],
-  "author": "An Pham",
+  "author": "Liubov Zelenaia",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/hoakusa/instagram_server#readme",
+  "homepage": "https://bitbucket.org/t5zeli00/insta_server#readme",
   "dependencies": {
     "bcrypt": "^0.8.5",
     "cloudinary": "^1.2.4",

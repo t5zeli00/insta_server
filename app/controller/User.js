@@ -197,12 +197,6 @@ module.exports = function(server, db) {
             var saveUser = dbUser;
 
 
-
-            // if (!!req.files &&!!req.files.image) {
-            //     cloudinary.uploader.upload(req.files.image.path, function (dbFile) {
-            //         saveUser.avatar = dbFile.url;
-            //     });
-            // }
             var save = function() {
                 db.users.update({ _id: mongojs.ObjectId(req.reqUser._id) }, saveUser, function (err, update) {
 
@@ -509,15 +503,5 @@ module.exports = function(server, db) {
         });
         return next();
     });
-
-    // delete post
-    server.del('/api/user/all', function (req, res, next) {
-
-            db.users.remove(function (err) {
-                console.log("delete all user");
-                res.send({message: "delete"});
-            });
-
-        return next();
-    });
+   
 };

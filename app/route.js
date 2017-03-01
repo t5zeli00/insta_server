@@ -1,6 +1,6 @@
 module.exports = function(server, db) {
     // route
-    require('./controller/UserController')(server, db);
-    require('./controller/PostController')(server, db);
-    require('./controller/CommentController')(server, db);
+    require('./controller/User')(server, db);
+    require('./controller/Post')(server, db);
+    require('./controller/Comment')(server, db);
 };
